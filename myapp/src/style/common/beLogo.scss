@@ -1,0 +1,31 @@
+.be-logo {
+  margin:40px !important;
+  object-fit: cover;
+  width: 720px;
+  height: 780px;
+  border-radius: 17px !important;
+}
+.div-text{
+  position: absolute;
+  bottom: 0px;
+  top: 620px;
+  left: 60px;
+  h1{
+    color: #ffffff;
+    font-family: "Source Sans 3";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 119%;
+    margin-bottom: 5px;
+  }
+  ul{
+    li{
+    color: #ffffff;
+    font-family: "Source Sans 3";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 5px;
+    }
+  }
+}

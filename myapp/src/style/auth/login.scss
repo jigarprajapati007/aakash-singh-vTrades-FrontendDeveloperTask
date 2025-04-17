@@ -1,0 +1,172 @@
+.login-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+.login-card {
+  // margin-top: 50px;
+  .MuiInputLabel-root {
+    color: #ffffff;
+    font-family: "Source Sans 3";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    margin-bottom: 5px;
+  }
+}
+.card-login {
+  width: 400px;
+  background: #17181e !important;
+  margin: auto;
+  box-shadow: none !important;
+  margin-top: 40px;
+  border-radius: 14px;
+  color: #ffffff !important;
+  border: 0.5px solid #17181e;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.input-box {
+  .MuiOutlinedInput-root {
+    border-radius: 10px !important;
+    border: 1.5px solid #30303d;
+    height: 48px;
+    background-color: #1d1e26;
+  }
+  .MuiOutlinedInput-root:focus {
+    border-color: #ce4b4b !important;
+    border: 3px solid red;
+  }
+  .MuiOutlinedInput-root {
+    input {
+      padding-top: 15px;
+      color: #ffffff;
+      font-family: "Source Sans 3";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+    }
+
+    input::placeholder {
+      color: #B6C0CB;
+      font-family: "Source Sans 3";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 16px;
+    }
+  }
+}
+.label-login{
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  line-height: 22.4px;
+  display: block;
+  margin-bottom: 7px !important;
+}
+.p-tag-login {
+  color: #DADADA;
+  font-size: 16px;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  line-height: 22.4px;
+  margin-top: -24px;
+}
+.h4-login-title {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: "Source Sans 3";
+  font-weight: 500;
+  line-height: 28.27px;
+}
+.login-forget-set {
+  margin-top: 6px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  .check-remember {
+    color: #ffffff;
+  }
+  .forget-txt {
+    margin-left: auto;
+    color: #8854c0;
+    font-size: 14px;
+    font-family: "Source Sans 3";
+    font-weight: 500;
+    line-height: 19.6px;
+  }
+  .rember-txt {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Source Sans 3";
+    font-weight: 400;
+    line-height: 19.6px;
+  }
+}
+.login-google-btn {
+  background-color: #1d1e26 !important;
+  color: #ffffff !important;
+  border-radius: 10px !important;
+  height: 50px !important;
+  margin-top: 20px !important;
+  text-transform: capitalize !important;
+  border: 1.5px solid #30303d !important;
+  font-size: 14px !important;
+  font-family: "Source Sans 3" !important;
+  font-weight: 400 !important;
+  line-height: 19.6px;
+  cursor: pointer !important;
+}
+.check-remember {
+  svg {
+    width: 18px;
+    height: 18px;
+    color: #ffffff;
+  }
+}
+.btn-login {
+  margin-top: 20px;
+  color: #ffffff;
+  border-radius: 25px;
+  font-size: 14px;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  line-height: 20.8px;
+}
+.dont-acc-txt {
+  color: #DADADA;
+  font-size: 14px;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  line-height: 20.8px;
+}
+.reg-txt {
+  color: #8854c0 !important;
+  font-size: 14px !important;
+  font-family: "Source Sans 3";
+  font-weight: 600 !important;
+  line-height: 200% !important;
+  margin-left: 10px !important;
+}
+.reg-dont-txt-div {
+  display: flex;
+  align-items: baseline;
+  width: 340px;
+  margin-left: auto;
+}
+.p-tag-msg {
+  color: #c80a15;
+  font-size: 14px;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  line-height: 16.8px;
+  margin-left: 6px;
+}
+.set-div-valid {
+  display: flex;
+  margin-top: -14px;
+  align-items: center;
+}
